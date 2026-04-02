@@ -2,7 +2,7 @@ import os
 import re
 import pandas as pd
 
-pasta_entrada = r"C:\Users\USER\OneDrive - GRUPO CGB\Banco de dados\Importar"
+pasta_entrada = r"C:\Users\USER\OneDrive - GRUPO CGB\Banco de dados\Cadastro"
 pasta_saida = os.path.join(pasta_entrada, "limpos")
 os.makedirs(pasta_saida, exist_ok=True)
 
@@ -43,7 +43,7 @@ for arquivo in os.listdir(pasta_entrada):
                 caminho_saida,
                 sep=';',
                 index=False,
-                encoding='utf-8-sig'  # 👈 AQUI
+                encoding='utf-8-sig'  
             )
 
             print(f"✅ Gerado: {nome_saida}")
