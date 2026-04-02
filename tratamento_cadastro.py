@@ -3,7 +3,7 @@ import re
 import pandas as pd
 
 pasta_entrada = r"C:\Users\USER\OneDrive - GRUPO CGB\Banco de dados\Cadastro"
-pasta_saida = os.path.join(pasta_entrada, "limpos")
+pasta_saida = os.path.join(pasta_entrada, "CSV")
 os.makedirs(pasta_saida, exist_ok=True)
 
 
