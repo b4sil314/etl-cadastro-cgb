@@ -2,7 +2,7 @@ import os
 import re
 import pandas as pd
 
-pasta_entrada = r"https://cgbengenharia-my.sharepoint.com/:f:/g/personal/estevao_ferreira_cgbengenharia_com_br/IgAOAiYgZjt8Q5lNM90fAFyoARHwaUCzlHwfHkQUz9jMlcg?e=FDCcXd"
+pasta_entrada = r"C:\Users\USER\OneDrive - GRUPO CGB\Banco de dados\Cadastro"
 pasta_saida = os.path.join(pasta_entrada, "CSV")
 os.makedirs(pasta_saida, exist_ok=True)
 
